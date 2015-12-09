@@ -1,6 +1,4 @@
 import java.util.concurrent.TimeUnit;
-
-
 //import org.openqa.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -21,11 +19,7 @@ public class LoginFb {
 		Selenium selenium = null;
 		
 		//THis is edited on Git hub
-<<<<<<< HEAD
-        System.out.println("This is Edited on git hub");
-=======
                 System.out.println("This is Edited on git hub again");
->>>>>>> 3b7c98cdcb08fe03ea53514037878840503c4bba
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.facebook.com/");
